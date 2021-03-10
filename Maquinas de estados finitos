@@ -1,0 +1,38 @@
+\documentclass[12pt]{article}
+\usepackage{tikz}
+
+\begin{document}
+
+\begin{center}
+\begin{tikzpicture}[scale=0.2]
+\tikzstyle{every node}+=[inner sep=0pt]
+\draw [black] (6,-6.6) circle (5.7);
+\draw (6,-6.6) node {$Luz\mbox{ }apagada$};
+\draw [black] (25.9,-22.2) circle (5.7);
+\draw (25.9,-22.2) node {$Encendido\mbox{ }$};
+\draw [black] (45.1,-37.1) circle (5.7);
+\draw (45.1,-37.1) node {$Brillo\mbox{ }medio$};
+\draw [black] (68.3,-52.2) circle (5.7);
+\draw (68.3,-52.2) node {$Brillo\mbox{ }alto$};
+\draw [black] (11.661,-6.28) arc (83.13927:20.67354:16.171);
+\fill [black] (24.86,-16.63) -- (25.04,-15.7) -- (24.11,-16.05);
+\draw (26.29,-9.11) node [above] {$ON\mbox{ }presionado$};
+\draw [black] (20.463,-20.52) arc (-112.98066:-143.20653:28.106);
+\fill [black] (8.93,-11.48) -- (9.01,-12.42) -- (9.81,-11.82);
+\draw (7.12,-17.26) node [below] {$OFF\mbox{ }presionado$};
+\draw [black] (30.4,-25.69) -- (40.6,-33.61);
+\fill [black] (40.6,-33.61) -- (40.27,-32.72) -- (39.66,-33.51);
+\draw (28.91,-30.15) node [below] {$ON\mbox{ }presionado$};
+\draw [black] (10.653,-3.329) arc (118.62976:-14.54187:25.214);
+\fill [black] (10.65,-3.33) -- (11.59,-3.38) -- (11.12,-2.51);
+\draw (45.22,-5.08) node [above] {$OFF\mbox{ }presionado$};
+\draw [black] (63.296,-54.92) arc (-65.41513:-186.98881:41.442);
+\fill [black] (4.92,-12.19) -- (4.33,-12.93) -- (5.32,-13.05);
+\draw (14.6,-51.17) node [below] {$OFF\mbox{ }presionado$};
+\draw [black] (49.88,-40.21) -- (63.52,-49.09);
+\fill [black] (63.52,-49.09) -- (63.13,-48.24) -- (62.58,-49.07);
+\draw (50.12,-45.15) node [below] {$ON\mbox{ }presionado$};
+\end{tikzpicture}
+\end{center}
+
+\end{document}
