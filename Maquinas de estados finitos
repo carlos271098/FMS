@@ -6,32 +6,27 @@
 \begin{center}
 \begin{tikzpicture}[scale=0.2]
 \tikzstyle{every node}+=[inner sep=0pt]
-\draw [black] (6,-6.6) circle (5.7);
-\draw (6,-6.6) node {$Luz\mbox{ }apagada$};
-\draw [black] (25.9,-22.2) circle (5.7);
-\draw (25.9,-22.2) node {$Encendido\mbox{ }$};
-\draw [black] (45.1,-37.1) circle (5.7);
-\draw (45.1,-37.1) node {$Brillo\mbox{ }medio$};
-\draw [black] (68.3,-52.2) circle (5.7);
-\draw (68.3,-52.2) node {$Brillo\mbox{ }alto$};
-\draw [black] (11.661,-6.28) arc (83.13927:20.67354:16.171);
-\fill [black] (24.86,-16.63) -- (25.04,-15.7) -- (24.11,-16.05);
-\draw (26.29,-9.11) node [above] {$ON\mbox{ }presionado$};
-\draw [black] (20.463,-20.52) arc (-112.98066:-143.20653:28.106);
-\fill [black] (8.93,-11.48) -- (9.01,-12.42) -- (9.81,-11.82);
-\draw (7.12,-17.26) node [below] {$OFF\mbox{ }presionado$};
-\draw [black] (30.4,-25.69) -- (40.6,-33.61);
-\fill [black] (40.6,-33.61) -- (40.27,-32.72) -- (39.66,-33.51);
-\draw (28.91,-30.15) node [below] {$ON\mbox{ }presionado$};
-\draw [black] (10.653,-3.329) arc (118.62976:-14.54187:25.214);
-\fill [black] (10.65,-3.33) -- (11.59,-3.38) -- (11.12,-2.51);
-\draw (45.22,-5.08) node [above] {$OFF\mbox{ }presionado$};
-\draw [black] (63.296,-54.92) arc (-65.41513:-186.98881:41.442);
-\fill [black] (4.92,-12.19) -- (4.33,-12.93) -- (5.32,-13.05);
-\draw (14.6,-51.17) node [below] {$OFF\mbox{ }presionado$};
-\draw [black] (49.88,-40.21) -- (63.52,-49.09);
-\fill [black] (63.52,-49.09) -- (63.13,-48.24) -- (62.58,-49.07);
-\draw (50.12,-45.15) node [below] {$ON\mbox{ }presionado$};
+\draw [black] (16.1,-37.5) circle (4.6);
+\draw (16.1,-37.5) node {$Run\mbox{ }away$};
+\draw [black] (20.7,-4.8) circle (4.6);
+\draw (20.7,-4.8) node {$Find\mbox{ }leaf$};
+\draw [black] (53.2,-11.9) circle (4.6);
+\draw (53.2,-11.9) node {$Go\mbox{ }home$};
+\draw [black] (9.5,-2.3) -- (16.21,-3.8);
+\draw (8.75,-1.92) node [left] {$Start\mbox{ }game$};
+\fill [black] (16.21,-3.8) -- (15.54,-3.14) -- (15.32,-4.11);
+\draw [black] (25.057,-3.339) arc (103.94007:51.41331:28.675);
+\fill [black] (49.85,-8.76) -- (49.54,-7.87) -- (48.91,-8.65);
+\draw (41.08,-2.26) node [above] {$Found\mbox{ }leaf$};
+\draw [black] (48.785,-13.174) arc (-78.18136:-126.46526:30.786);
+\fill [black] (24.18,-7.8) -- (24.53,-8.68) -- (25.12,-7.87);
+\draw (32.01,-14.13) node [below] {$Leaving\mbox{ }home$};
+\draw [black] (14.104,-33.362) arc (-159.24627:-216.76855:26.377);
+\fill [black] (14.1,-33.36) -- (14.29,-32.44) -- (13.35,-32.79);
+\draw (11.96,-20.17) node [left] {$Mouse\mbox{ }is\mbox{ }near$};
+\draw [black] (21.49,-9.33) arc (7.07061:-23.08544:46.651);
+\fill [black] (21.49,-9.33) -- (21.09,-10.19) -- (22.08,-10.06);
+\draw (22.08,-21.74) node [right] {$Mouse\mbox{ }is\mbox{ }amay$};
 \end{tikzpicture}
 \end{center}
 
